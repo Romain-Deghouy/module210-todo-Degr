@@ -18,6 +18,8 @@ jobs:
        id-token: write
        contents: read
     steps:
+      - name: Lighthouse CI Action
+        uses: treosh/lighthouse-ci-action@v12
       - uses: actions/checkout@v3
         with:
           submodules: true

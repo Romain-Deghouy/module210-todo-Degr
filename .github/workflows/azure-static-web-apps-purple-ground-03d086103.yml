@@ -34,7 +34,6 @@ jobs:
            result-encoding: string
       - name: Vérifier l'existence de index.html
         run: |
-          ls -R ./todo-app-main/todo-app-main/src/frontend
           if [ -f ./todo-app-main/todo-app-main/src/frontend/index.html ]; then
             echo "✅ Le fichier index.html existe"
           else

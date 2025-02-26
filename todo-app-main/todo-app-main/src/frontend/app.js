@@ -1,4 +1,4 @@
-const apiEndpoint = "http://194.182.188.133:8080/api/tasks";
+const apiEndpoint = "https://ca-210-300721-deghouy-romain.bravewave-dddffc0a.northeurope.azurecontainerapps.io";
 
 $(document).ready(function () {
   // Charger les tâches au démarrage
